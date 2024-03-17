@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Electronic shop"/>
+    <meta name="keywords" content="shop, electronic, phones, headphones, tablets"/>
+    <meta name="author" content="Gogaev Sergii"/>
+    <title>Shop</title>
+    <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.ico" sizes="180x180" type="image/x-icon"/>
+    <link rel="icon" href="img/ico/icon-16x16.ico" sizes="16x16" type="image/x-icon"/>
+    <link rel="icon" href="img/ico/icon-32x32.ico" sizes="32x32" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/variables.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img class="site-logo" src="img/png/site-logo-image.png" alt="Site logo">
+        </a>
+        <nav class="header__nav flex-nav">
+            <ul class="header__nav-ul flex-space-between">
+                <li><a class="header__nav-item" href="#">ALL PRODUCTS</a></li>
+                <li><a class="header__nav-item" href="#">SOLUTIONS</a></li>
+                <li><a class="header__nav-item" href="#">ABOUT</a></li>
+                <li><a class="header__nav-item" href="#">SUPPORT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main main-container">
+        <section class="section-info">
+            <h1 class="section-info__title">The new phones are here take a look.</h1>
+            <button class="section-info__button">Explore</button>
+        </section>
+        <section class="section-cards">
+            <h2 class="section-cards__title">Save on our most selled items</h2>
+            <div class="flex-space-between">
+                <a class="section-cards__card flex-column" href="#">
+                    <img class="section-cards__card-image" src="img/webp/section-cards__card-image-laptop.webp" alt="Laptop image" loading="lazy">
+                    <h3 class="section-cards__card-title">Laptop</h3>
+                    <p class="section-cards__card-price">$ 1,200.00 USD</p>
+                </a>
+                <a class="section-cards__card flex-column" href="#">
+                    <img class="section-cards__card-image" src="img/webp/section-cards__card-image-smartwatch.webp" alt="smartwatch image" loading="lazy">
+                    <h3 class="section-cards__card-title">SmartWatch</h3>
+                    <p class="section-cards__card-price">$ 199.00 USD</p>
+                </a>
+                <a class="section-cards__card flex-column" href="#">
+                    <img class="section-cards__card-image" src="img/webp/section-cards__card-image-headphones.webp" alt="headphones image" loading="lazy">
+                    <h3 class="section-cards__card-title">Headphones</h3>
+                    <p class="section-cards__card-price">$ 149.00 USD</p>
+                </a>
+                <a class="section-cards__card flex-column" href="#">
+                    <img class="section-cards__card-image" src="img/webp/section-cards__card-image-tablet.webp" alt="tablet image" loading="lazy">
+                    <h3 class="section-cards__card-title">Tablet</h3>
+                    <p class="section-cards__card-price">$ 610.00 USD</p>
+                </a>
+            </div>
+        </section>
+        <section class="section-feedback flex-column">
+            <h2 class="section-feedback__title">Didn't find the right product?</h2>
+            <img class="section-feedback__image" src="img/webp/section-feedback__image-mockup-pack.webp" alt="Mockup pack image" loading="lazy">
+            <form action="#" method="get">
+                <label class="section-feedback__form-label" for="phone">
+                    <input class="section-feedback__form-input-tel" type="tel" id="phone" name="phone" placeholder="Your phone number">
+                </label>
+                <input class="section-feedback__form-submit" type="submit" value="Call me">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__body flex-space-between">
+            <a href="#">
+                <img class="site-logo" src="img/png/site-logo-image.png" alt="Site logo">
+            </a>
+            <nav class="footer__nav flex-nav">
+                <div class="footer__nav-item flex-column">
+                    <p class="footer__nav-title margin-bottom">Company</p>
+                    <a class="footer__nav-link margin-bottom" href="#">About</a>
+                    <a class="footer__nav-link" href="#">Support</a>
+                </div>
+                <div class="footer__nav-item flex-column">
+                    <p class="footer__nav-title margin-bottom">All products</p>
+                    <a class="footer__nav-link margin-bottom" href="#">Phones</a>
+                    <a class="footer__nav-link" href="#">Watch</a>
+                </div>
+                <div class="footer__nav-item flex-column">
+                    <p class="footer__nav-title margin-bottom">Follow Us</p>
+                    <a class="footer__nav-link margin-bottom" href="#">Instagram</a>
+                    <a class="footer__nav-link" href="#">Youtube</a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

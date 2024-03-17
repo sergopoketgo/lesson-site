@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Readex Pro";
+    font-display: swap;
+    src: url('../fonts/ReadexPro-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    src: url('../fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+}

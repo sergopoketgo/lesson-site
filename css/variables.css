@@ -1,0 +1,27 @@
+:root {
+    --font-inter: "Inter", sans-serif;
+    --font-readex-pro: "Readex Pro", sans-serif;
+
+    --color-transparent: hsla(0, 0%, 0%, 0%);
+    --color-white: hsl(0, 100%, 100%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-nebula: hsl(160, 15%, 88%);
+    --color-gray: hsl(0, 0%, 23%);
+    --color-background-footer: hsl(210, 17%, 98%);
+    --color-logo-cyan: hsl(189, 100%, 50%);
+
+    --font-size-default: 14px;
+    --font-size-title-first: 48px;
+    --font-size-title: 42px;
+    --font-size-small-title: 22px;
+    --font-size-subtitle: 18px;
+    --font-size-footer__nav-link: 17px;
+
+    --transition: .4s;
+    --transition-link: .2s;
+    --line-height-title: 1.25;
+
+    --border-default: 1px solid var(--color-black);
+    --border-info-button-hover: 1px solid  var(--color-transparent);
+    --border-card: 1px dashed var(--color-transparent);
+}

@@ -1,0 +1,23 @@
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.main-container {
+    max-width: 1350px;
+    margin: 0 auto
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
